@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "server:dev": "yarn run dev",
+    "server:prod": "yarn run start",
+    "clean": "./task clean",
+    "compile": "./task compile",
+    "lint": "./task lint",
+    "test": "./task test"
+  },
+  "keywords": ["express", "monorepo"],
+  "author": "Charles Hufnagel",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "express": "^4.16.4",
+    "jest": "^23.6.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.5",
+    "serve-favicon": "^2.5.0",
+    "tools": "1.0.0",
+    "winston": "^3.1.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "hub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./task test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "client": "1.0.0",
+    "server": "1.0.0",
+    "tools": "1.0.0"
+  }
+}

@@ -1,0 +1,16 @@
+# node
+node_modules
+
+# os-specific
+.DS_Store
+
+# lerna and server logs
+*.log
+logs
+
+# builds
+dist
+
+# docker configuration
+docker-compose.yml
+Dockerfile

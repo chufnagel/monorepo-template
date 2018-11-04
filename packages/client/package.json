@@ -1,0 +1,29 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.jsx",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "client:dev-server": "webpack-dev-server --mode development",
+    "dev": "webpack --mode development -w -d",
+    "client:dev": "yarn run dev",
+    "clean": "./task clean",
+    "compile": "./task compile",
+    "lint": "./task lint",
+    "test": "./task test",
+    "build": "webpack -p --progress --mode production",
+    "client:build": "yarn run build"
+  },
+  "keywords": [],
+  "author": "Charles Hufnagel",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "jest": "^23.6.0",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-router-dom": "^4.3.1",
+    "tools": "1.0.0"
+  }
+}
