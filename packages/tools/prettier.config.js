@@ -1,7 +1,6 @@
 module.exports = {
-  printWidth: 100,
-  // eslint ignore next line
-  "editor.formatOnSave": true,
+  "printWidth": 100,
+  "trailingComma": "all",
   "eslint.autoFixOnSave": true,
-  trailingComma: "all",
-};
+  "editor.formatOnSave": true
+}

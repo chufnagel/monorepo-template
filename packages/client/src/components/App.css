@@ -1,0 +1,17 @@
+.center {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-style: solid;
+}
+.title {
+  color: #268bd2;
+}
+.body {
+  color: #839496;
+}

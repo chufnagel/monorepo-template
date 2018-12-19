@@ -22,9 +22,8 @@
     "express": "^4.16.4",
     "jest": "^23.6.0",
     "morgan": "^1.9.1",
-    "nodemon": "^1.18.5",
+    "nodemon": "^1.18.9",
     "serve-favicon": "^2.5.0",
-    "tools": "1.0.0",
     "winston": "^3.1.0"
   }
 }
